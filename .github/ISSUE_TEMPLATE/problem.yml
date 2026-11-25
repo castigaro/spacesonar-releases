@@ -1,16 +1,16 @@
-name: Problem melden
-description: Ein Fehler oder ein unerwartetes Verhalten von SpaceSonar
+name: Report a problem
+description: A bug or unexpected behaviour of SpaceSonar (English or German)
 title: "[Problem] "
 labels: []
 body:
   - type: markdown
     attributes:
       value: |
-        Danke für die Meldung. Dieses Issue ist öffentlich: bitte keine persönlichen Daten, keine verräterischen Dateinamen und keine Bilder mit solchen Inhalten.
+        Thank you for the report. This issue is public: no personal data, no revealing file names, no screenshots with such content. You may write in English or German.
   - type: dropdown
     id: platform
     attributes:
-      label: Plattform
+      label: Platform
       options:
         - Android
         - Windows
@@ -20,20 +20,20 @@ body:
     id: version
     attributes:
       label: Version
-      description: Steht in den Einstellungen der App.
+      description: Shown in the settings of the app.
     validations:
       required: true
   - type: textarea
     id: what
     attributes:
-      label: Was ist passiert?
-      description: Was hast du getan, was hast du erwartet, was kam stattdessen?
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead?
     validations:
       required: true
   - type: checkboxes
     id: privacy
     attributes:
-      label: Datenschutz
+      label: Privacy
       options:
-        - label: Der Text enthält keine persönlichen Daten, die ich nicht öffentlich sehen möchte.
+        - label: The text contains no personal data I would not want to see in public.
           required: true

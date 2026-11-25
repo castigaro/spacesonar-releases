@@ -1,34 +1,39 @@
-# SpaceSonar – Downloads und Fehlermeldungen
+# SpaceSonar – downloads and issue tracker
 
-Hier erscheinen die Veröffentlichungen von SpaceSonar für Android und
-Windows. Der Quellcode liegt nicht hier. Mehr zur App:
+This repository carries the releases of SpaceSonar for Android and Windows.
+The source code does not live here. About the app, in German:
 https://appsonar.de/apps/spacesonar.html
 
 ## Download
 
-Unter „Releases“ liegt je Plattform die neueste Version:
+The latest version of each platform is under "Releases":
 
-- **Android:** die APK-Datei. Beim ersten Mal erlaubt Android die
-  Installation aus dieser Quelle erst nach einer Rückfrage; Google Play
-  Protect kann vor Apps warnen, die nicht aus dem Play Store stammen.
-- **Windows:** das ZIP. Entpacken und die App aus dem Ordner starten, eine
-  Installation ist nicht nötig. Die Dateien sind nicht mit einem Zertifikat
-  signiert; Windows SmartScreen zeigt deshalb beim ersten Start einen
-  Hinweis, „Weitere Informationen“ und „Trotzdem ausführen“ starten die App.
+- **Android:** the APK file. The first time, Android asks before it allows
+  installing from this source; Google Play Protect may warn about apps that
+  do not come from the Play Store.
+- **Windows:** the ZIP. Unpack it and start the app from the folder, no
+  installation needed. The files are not signed with a certificate, so
+  Windows SmartScreen shows a warning on the first start; "More info" and
+  "Run anyway" start the app.
 
-Solange hier noch keine Veröffentlichung liegt, gibt es die Downloads auf
-appsonar.de.
+Until the first release appears here, the downloads are on appsonar.de.
 
-## Fehler melden
+## Reporting a problem
 
-Fehler und Wünsche kommen als Issue in dieses Repository. Issues sind
-öffentlich: Schreib keine persönlichen Daten hinein, keine Dateinamen, die
-etwas über dich verraten, und keine Bilder mit solchen Inhalten. Nenne die
-Plattform und die Version aus den Einstellungen der App.
+Bugs and requests go in as issues of this repository. Issues are public: do
+not include personal data, file names that reveal something about you, or
+screenshots with such content. Name the platform and the version from the
+settings of the app.
 
-## Lizenz
+## Licence
 
-SpaceSonar ist in der aktuellen Version kostenlos nutzbar, privat und
-beruflich. Die Nutzungslizenz liegt den Versionen bei, die mit ihr
-veröffentlicht werden; der Text steht auch hier in `LICENSE`. Ältere
-Versionen tragen die Lizenz, mit der sie veröffentlicht wurden.
+The current version of SpaceSonar is free to use, privately and at work. The
+usage licence ships with the versions that are released with it; the text is
+also here in `LICENSE`. Older versions carry the licence they were released
+with.
+
+## Deutsch
+
+Beschreibung, Download und Datenschutzerklärung auf Deutsch:
+https://appsonar.de/apps/spacesonar.html. Issues dürfen auf Deutsch oder
+Englisch geschrieben werden.

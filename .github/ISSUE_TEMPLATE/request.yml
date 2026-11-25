@@ -1,0 +1,16 @@
+name: Request or question
+description: A suggestion for SpaceSonar or a question about using it (English or German)
+title: "[Request] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public: no personal data, please. You may write in English or German.
+  - type: textarea
+    id: wish
+    attributes:
+      label: What is it about?
+      description: What should the app do or do differently, and what does that help you with?
+    validations:
+      required: true
