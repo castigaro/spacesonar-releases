@@ -1,0 +1,39 @@
+name: Problem melden
+description: Ein Fehler oder ein unerwartetes Verhalten von SpaceSonar
+title: "[Problem] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für die Meldung. Dieses Issue ist öffentlich: bitte keine persönlichen Daten, keine verräterischen Dateinamen und keine Bilder mit solchen Inhalten.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Plattform
+      options:
+        - Android
+        - Windows
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Steht in den Einstellungen der App.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Was ist passiert?
+      description: Was hast du getan, was hast du erwartet, was kam stattdessen?
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Datenschutz
+      options:
+        - label: Der Text enthält keine persönlichen Daten, die ich nicht öffentlich sehen möchte.
+          required: true

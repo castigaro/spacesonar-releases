@@ -1,0 +1,16 @@
+name: Wunsch oder Frage
+description: Ein Vorschlag für SpaceSonar oder eine Frage zur Bedienung
+title: "[Wunsch] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dieses Issue ist öffentlich: bitte keine persönlichen Daten.
+  - type: textarea
+    id: wish
+    attributes:
+      label: Worum geht es?
+      description: Was soll die App können oder anders machen, und wobei hilft dir das?
+    validations:
+      required: true
